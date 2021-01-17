@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>pimupomu</title>
+    <script src="./jquery-3.5.1.min.js"></script>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/assets/css/style.css">
 </head>
 <body>
@@ -64,7 +65,7 @@
 
                 <div class="main-content__box main-content__box__re">
                     <div class="main-content__left">
-                        <img src="<?php echo get_template_directory_uri()?>/assets/img/section_07.png" alt="">
+                        <img src="<?php echo get_template_directory_uri()?>/assets/img/main_music.jpg" alt="">
                         <p>紹介文紹介文紹介文紹介文紹介文紹介文紹介文紹介文紹介文紹介文紹介文紹介文紹介文紹介文紹介文紹介文紹介文紹介文紹介文紹介文a</p>
                     </div>
                     <div class="main-content__right">
@@ -84,7 +85,7 @@
 
                 <div class="main-content__box">
                     <div class="main-content__left">
-                        <img src="<?php echo get_template_directory_uri()?>/assets/img/section_07.png" alt="">
+                        <img src="<?php echo get_template_directory_uri()?>/assets/img/main_code.jpg" alt="">
                         <p>紹介文紹介文紹介文紹介文紹介文紹介文紹介文紹介文紹介文紹介文紹介文紹介文紹介文紹介文紹介文紹介文紹介文紹介文紹介文紹介文a</p>
                     </div>
                     <div class="main-content__right">
