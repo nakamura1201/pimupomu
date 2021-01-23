@@ -9,7 +9,9 @@ bubbly({
 $(function(){
   $('.top-slide').slick({
     autoplay: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
     centerMode: true,
-    centerPadding: '25%',
+    centerPadding: '40px',
   });
 });

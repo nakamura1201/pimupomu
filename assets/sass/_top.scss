@@ -41,9 +41,14 @@ video{
     flex-direction: column-reverse;
     align-items: center;
     &__left{
+        max-width: 1920px;
+        width: 100%;
       img{
         width: 100%;
 
+      }
+      li{
+        margin: 0 15px;
       }
     }
     &__right{
@@ -120,7 +125,7 @@ video{
       background-color:#b0d8f5;
       content:"";
       width: 70%;
-      padding-top: 35%;
+      padding-top: 30%;
       z-index: -1;
       top: -50px;
       left: 0;
@@ -132,7 +137,7 @@ video{
       background-color:#ffc8e7;
       content:"";
       width: 70%;
-      padding-top: 40%;
+      padding-top: 30%;
       z-index: -1;
       top: -50px;
       right: 0;
@@ -152,8 +157,9 @@ video{
     display: flex;
     .main-content__left{
       width: 50%;
-      margin-right: 10px;
-      margin-left: 10px;
+      margin-right: 40px;
+      margin-left: 40px;
+      margin-top: 100px;
       img{
         width: 100%;
         margin-bottom: 30px;

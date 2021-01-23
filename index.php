@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>pimupomu</title>
-    <script src="<?php echo get_template_directory_uri()?>/assets/js/jquery-3.5.1.min.js"></script>
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/assets/css/slick.css"/>
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/assets/css/style.css">
-</head>
+<?php get_header(); ?>
 <body>
     <div class="top-img__wrapper">
         <video src="<?php echo get_template_directory_uri()?>/assets/video/top-video.mp4" loop autoplay muted></video>
@@ -22,6 +12,8 @@
             <div class="plf-box">
                 <div class="plf-box__left">
                     <ul class="top-slide">
+                        <li><img src="<?php echo get_template_directory_uri()?>/assets/img/slide-img.png" alt=""></li>
+                        <li><img src="<?php echo get_template_directory_uri()?>/assets/img/slide-img.png" alt=""></li>
                         <li><img src="<?php echo get_template_directory_uri()?>/assets/img/slide-img.png" alt=""></li>
                         <li><img src="<?php echo get_template_directory_uri()?>/assets/img/slide-img.png" alt=""></li>
                         <li><img src="<?php echo get_template_directory_uri()?>/assets/img/slide-img.png" alt=""></li>
@@ -104,11 +96,4 @@
         </div>
     </section>
     <!-- <div class="character-bg"></div> -->
-    <footer>
-        <p>Copyright © 2021 pimupomu Inc. All Rights Reserved.</p>
-    </footer>
-    <script src="<?php echo get_template_directory_uri()?>/assets/js/slick.min.js"></script>
-    <script src="<?php echo get_template_directory_uri()?>/assets/js/bubbly-bg.js"></script>
-    <script src="<?php echo get_template_directory_uri()?>/assets/js/common.js"></script>
-</body>
-</html>
+    <?php get_footer(); ?>
