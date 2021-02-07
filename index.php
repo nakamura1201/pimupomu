@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-<body>
     <div class="top-img__wrapper">
         <video src="<?php echo get_template_directory_uri()?>/assets/video/top-video.mp4" loop autoplay muted></video>
         <img src="<?php echo get_template_directory_uri()?>/assets/img/title-logo.png" alt="" class="title-logo">
