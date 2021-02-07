@@ -1,0 +1,21 @@
+$min1200: 1200px;
+$min768: 768px;
+$min480: 480px;
+
+@mixin min1200{
+  @media screen and (max-width: ($min1200)){
+    @content;
+  }
+}
+
+@mixin min768{
+  @media screen and (max-width: ($min768)){
+    @content;
+  }
+}
+
+@mixin min480{
+  @media screen and (max-width: ($min480)){
+    @content;
+  }
+}

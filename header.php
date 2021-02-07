@@ -10,3 +10,41 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/assets/css/style.css">
     <?php wp_head(); ?>
 </head>
+<body>
+    <div class="header">
+        <ul class="header-list">
+            <li class="list-par">
+                <a href="">GAME</a>
+                <div class="menu-contents">
+                    <ul>
+                        <li><a href="#">hogehoge</a></li>
+                        <li><a href="#">hogehoge</a></li>
+                        <li><a href="#">hogehoge</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="list-par">
+                <a href="">MUSIC</a>
+                <div class="menu-contents">
+                    <ul>
+                        <li><a href="">hogehoge</a></li>
+                        <li><a href="">hogehoge</a></li>
+                        <li><a href="">hogehoge</a></li>
+                        <li><a href="">hogehoge</a></li>
+                        <li><a href="">hogehoge</a></li>
+                        <li><a href="">hogehoge</a></li>
+                        <li><a href="">hogehoge</a></li>
+                        <li><a href="">hogehoge</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="list-par">
+                <a href="">PC</a>
+                <div class="menu-contents">
+                    <ul>
+                        <li><a href="">hogehoge</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
